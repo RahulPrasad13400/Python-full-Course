@@ -24,3 +24,9 @@ print(collection)   #print only unique values
 collection.add(6)
 collection.remove(1)
 print(collection)
+
+# SET UNION AND INTERSECTION
+set1 = {4, 5, 6}
+set2 = {6, 9, 0}
+print(set1.union(set2))
+print(set1.intersection(set2))
